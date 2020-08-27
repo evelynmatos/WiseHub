@@ -1,27 +1,37 @@
-# Laravel PHP Framework
+# WiseHub
+Aplicação desenvolvida para o processo seletivo da Keep IT
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+<b>Solução para realizar Match de candidatos com as vagas da [WiseHub](https://wisehub.com.br/).</b> 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# Recursos para o desenvolvimento da aplicação:
+<ol>
+  <li>Arquitetura MVC</li>
+  <li>Banco de dados - MySQL / SQLite</li>
+  <li>Tecnologias - PHP, Laravel 5.3, Materialize CSS</li>
+  <li>IDE - Visual Studio Code</li>
+</ol>  
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+# Execução do Projeto:
+<ol>
+  <li>Clone o projeto do repositório</li>
+  <li>Insira as configurações do banco de dados no arquivo (.ENV)</li>
+  <li>Conecte ao banco MySQL (caso seja SQLite não será necessário)</li>
+  <li>Execute o comando para criar as tabelas e inserir dados - $ php artisan migrate --seed</li>
+  <li>Execute o comando para iniciar aplicação - $ php artisan serve</li> 
+  <li>Acesse a aplicação</li>
+</ol> 
 
-## Official Documentation
+# Screenshots
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+ - Tela de vagas disponíveis 
+ ![HomePage](https://github.com/evelynmatos/WiseHub/blob/master/home.PNG)
+    
+ - Tela de cadastro do usuário
+ ![CadastroPage](https://github.com/evelynmatos/WiseHub/blob/master/cadastro.PNG)
+    
+ - Tela de login do usuário
+ ![LoginPage](https://github.com/evelynmatos/WiseHub/blob/master/Login.PNG)
+       
+ - Tela de vagas que usuário inscreveu
+ ![VagasPage](https://github.com/evelynmatos/WiseHub/blob/master/vagas.PNG)
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
