@@ -8,7 +8,7 @@ Aplicação desenvolvida para o processo seletivo da Keep IT
   <li>Arquitetura MVC</li>
   <li>Banco de dados - MySQL / SQLite</li>
   <li>Tecnologias - PHP, Laravel 5.3, Materialize CSS</li>
-  <li>IDE - Visual Studio Code</li>
+  <li>IDE - Visual Studio Code / PHPStorm</li>
 </ol>  
 
 # Execução do Projeto:
